@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.main_container{
+    width:85%;
+    margin: 0 auto;
+}
+
+:root{
+    --color-blue:#3864DF;
+    --color-grey:#7A7978;
+    --color-white:#fff;
+    --color-black:#31302E;
+    --color-orange:#FF6537;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+h2{
+    font-size: 45px;
+    font-weight: 800px;
+}
