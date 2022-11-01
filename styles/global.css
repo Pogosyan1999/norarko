@@ -31,5 +31,38 @@ ul{
 
 h2{
     font-size: 45px;
-    font-weight: 800px;
+    font-weight: bold;
+    
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.orange{
+    background: var(--color-orange);
+    width: 180px;
+    height: 55px;
+    color: var(--color-white);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.orange i{
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.orange:hover{
+    background: var(--color-white);
+    color: var(--color-orange);
+    transition: .5s;
+    border: 1px solid var(--color-orange);
 }

@@ -1,0 +1,67 @@
+.services{
+    margin-top: 100px;
+}
+
+.services p{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-black);
+    width:45%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.services .minBlog{
+    width: 290px;
+    height: 400px;
+    background: url('../img/img1.png') no-repeat;
+    border-radius: 10px;
+}
+
+.services .bg_container{
+    width: 100%;
+    height: 100%;
+    background: rgba(245, 245, 247, 0.7);
+    padding: 10px;
+    position: relative;
+ 
+}
+
+.services .bg_container .btnn{
+    position: absolute;
+    bottom: 0;
+    right:15px
+}
+
+.bg_container .btnn a{
+    color: var(--color-orange);
+    font-size: 20px;
+}
+
+.minBlog1{
+    width: 100%;
+    height: 180px;
+    background: url('../img/user1.png') no-repeat;
+    border-radius: 10px;
+}
+
+.minBlog2{
+    width: 100%;
+    height: 180px;
+    background: url('../img/doctor.png') no-repeat;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.bg_container:hover{
+    background: none;
+    transition: .5s;
+}
+
+.bg_container:hover h5{
+    color:var(--color-white)
+}
+
+.bg_container:hover a{
+    color:var(--color-white)
+}

@@ -1,0 +1,44 @@
+.treatment{
+    margin-top: 100px;
+    position: relative;
+}
+
+.treatment img{
+    position: absolute;
+    top:200px;
+    left: 182px;
+}
+
+.treatment p{
+    font-size: 15px;
+    width: 45%;
+    margin-top: 30px;
+}
+
+.treatment .title_blog{
+    display: flex;
+    align-items: center;
+    color: var(--color-orange);
+    margin-top: 35px;
+}
+
+.treatment .circle{
+    margin: 0 20px;
+}
+
+.title_blog .circle i{
+    font-size: 20px;
+}
+
+.title_blog h5{
+    text-transform: uppercase;
+}
+
+.treatment .minContainer{
+    width:75%;
+    margin: 30px auto;
+}
+
+.treatment .minContainer a{
+    text-decoration: underline;
+}

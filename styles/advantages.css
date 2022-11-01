@@ -1,0 +1,64 @@
+.advantages_company{
+    margin-top: 100px;
+}
+
+.advantages_company p{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-black);
+    width: 70%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+
+.advantages_company .min_blog{
+    width: 238px;
+    height: 238px;
+    border-radius: 10px;
+    background-color: #f5f5f7;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 50px;
+}
+
+.advantages_company .bg_blue{
+    background: var(--color-blue); 
+  }
+
+
+
+.min_blog i{
+    font-size: 30px;
+    color: var(--color-orange);
+}
+
+.bg_blue i{
+    font-size: 50px;
+    color: var(--color-white);
+}
+
+.bg_blue{
+    position: relative;
+}
+
+.bg_blue .plus i{
+   position: absolute;
+   top:10px;
+   right: 10px;
+   font-size: 35px;
+}
+
+.bg_blue .pluss i{
+    position: absolute;
+    bottom:10px;
+    left: 10px;
+    font-size: 25px;
+ }
+
+.min_blog h5{
+    margin-top: 40px;
+}
