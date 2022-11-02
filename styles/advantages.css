@@ -62,3 +62,62 @@
 .min_blog h5{
     margin-top: 40px;
 }
+
+@media screen and (max-width:1200px) {
+  
+    .advantages_company p{
+        font-size: 14px;
+    }
+
+    .advantages_company .min_blog{
+        width: 220px;
+        height: 220px;
+       
+    }
+}  
+
+
+@media screen and (max-width:1024px) {
+  
+    .advantages_company p{
+        font-size: 13px;
+        width: 80%;
+    }
+
+    .bg_blue i{
+        font-size: 40px;
+    }
+
+    .bg_blue .plus i{
+        font-size: 25px;
+     }
+
+    .advantages_company .min_blog{
+        width: 200px;
+        height: 200px;
+       
+    }
+}
+
+@media screen and (max-width:992px) {
+  
+    .advantages_company p{
+       text-align: center;
+       margin: 0 auto;
+    }
+
+    .bg_blue i{
+        font-size: 40px;
+    }
+
+    .bg_blue .plus i{
+        font-size: 25px;
+     }
+
+    .advantages_company .min_blog{
+        width: 100%;
+        height: 200px;
+       
+    }
+}
+

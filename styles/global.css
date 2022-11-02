@@ -29,9 +29,12 @@ ul{
 }
 
 
+
+
 h2{
     font-size: 45px;
     font-weight: bold;
+  
     
 }
 
@@ -66,3 +69,151 @@ h5{
     transition: .5s;
     border: 1px solid var(--color-orange);
 }
+
+
+@media screen and (max-width:1200px) {
+    .orange{
+        width: 160px;
+        height: 45px;
+        font-size: 13px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .orange i{
+        font-size: 14px;
+    }
+
+    
+h5{
+    font-size: 18px;
+    
+}
+   
+}  
+
+
+@media screen and (max-width:1024px) {
+    .main_container{
+        width:90%;
+        margin: 0 auto;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    
+    .orange{
+        width: 140px;
+        height: 40px;
+       
+    }
+
+    h5{
+        font-size: 16px;
+    }
+
+    
+
+    
+ 
+}  
+
+
+@media screen and (max-width:992px) {
+    
+    h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    
+    .orange{
+        width: 140px;
+        height: 40px;
+        margin: 0 auto;
+       
+    }
+
+    h5{
+        font-size: 16px;
+    }
+}  
+
+
+@media screen and (max-width:800px) {
+    h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    
+    .orange{
+        width: 140px;
+        height: 40px;
+        margin: 0 auto;
+       
+    }
+
+    h5{
+        font-size: 16px;
+    }
+ 
+ 
+}  
+
+@media screen and (max-width:575px) {
+    h2{
+        font-size: 16px;
+        
+    }
+
+    
+    .orange{
+        width: 120px;
+        height: 30px;
+        font-size: 12px;
+       
+    }
+
+    h5{
+        font-size: 13px;
+    }
+ 
+ 
+}  
+
+@media screen and (max-width:360px) {
+    h2{
+        font-size: 15px;
+        
+    }
+
+    
+    .orange{
+        width: 120px;
+        height: 30px;
+        font-size: 11px;
+       
+    }
+
+    h5{
+        font-size: 13px;
+    }
+ 
+ 
+}  
+
+@media screen and (max-width:320px) {
+    .main_container{
+        width: 100%;
+    }
+ 
+}  
+
+
+
+

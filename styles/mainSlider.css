@@ -5,15 +5,15 @@
 
 .main_slider .slick-list{
     overflow: hidden;
+    position: relative;
 }
 
-.main_slider .slick-slider{
+.main_slider {
     position:relative;
 }
 
 .main_slider .slick-arrow{
     position: absolute;
-    top:50%;
     z-index: 10;
     font-size: 0px;
     width: 20px;
@@ -24,12 +24,14 @@
 
 .main_slider .slick-arrow.slick-prev{
     left:30px;
-    background: url('../img/leftArrow.png') 0 0 / 100% no-repeat;
+     top: 50%;
+    background: url('../img/leftArrow.png')  0 0 / 100% no-repeat;
 
 }
 
 .main_slider .slick-arrow.slick-next{
     right: 30px;
+    top: 50%;
     background: url('../img/rightArrow.png') 0 0 / 100% no-repeat;
 }
 
@@ -88,6 +90,83 @@
     margin-top: 15px;
 }
 
+
+@media screen and (max-width:1024px) {
+  
+    .main_slider .slick-arrow{
+        width: 0px;
+    
+    }
+
+    .main_slider .slick-arrow.slick-prev{
+        left:20px;
+         top: 50%;
+
+    
+    }
+    
+    .main_slider .slick-arrow.slick-next{
+        right: 20px;
+        top: 50%;
+    }
+
+    .main_slider_text{
+        font-size: 13px;
+    }
+    
+}  
+
+@media screen and (max-width:992px) {
+
+    .slide1,.slide2,.slide3{
+        height: 250px;
+        
+    }
+
+    .slide1 .title, .slide2 .title, .slide3 .title{
+       margin-top: 50px;
+      
+    }
+    
+    .main_slider_text{
+        text-align: center;
+        width:95%;
+        margin: 20px auto;
+       
+    }
+  
+   
+    
+}  
+
+
+@media screen and (max-width:768px) {
+
+    .slick-dots li button{
+        width: 8px;
+        height: 10px;
+
+    }
+   
+}  
+
+
+@media screen and (max-width:360px) {
+   .main_slider_text{
+    font-size: 12px;
+   }
+
+   .main_slider img{
+    display: none;
+   }
+
+   .slick-dots li {
+    display: none;
+
+}
+ 
+ 
+}  
 
 
 

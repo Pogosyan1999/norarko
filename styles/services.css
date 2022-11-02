@@ -6,7 +6,7 @@
     font-size: 15px;
     font-weight: 400;
     color: var(--color-black);
-    width:45%;
+    width:50%;
     margin-top: 30px;
     margin-bottom: 60px;
 }
@@ -22,8 +22,8 @@
     width: 100%;
     height: 100%;
     background: rgba(245, 245, 247, 0.7);
-    padding: 10px;
     position: relative;
+    padding: 10px;
  
 }
 
@@ -43,6 +43,8 @@
     height: 180px;
     background: url('../img/user1.png') no-repeat;
     border-radius: 10px;
+    background-position: center;
+    background-size: cover;
 }
 
 .minBlog2{
@@ -64,4 +66,68 @@
 
 .bg_container:hover a{
     color:var(--color-white)
+}
+
+
+@media screen and (max-width:1200px) {
+    .services p{
+        font-size: 14px;
+    }
+
+    .services .minBlog{
+        width: 280px;
+        height: 400px;
+    }
+    
+   
+}  
+
+@media screen and (max-width:1024px) {
+    .services p{
+        font-size: 13px;
+    }
+
+    .services .minBlog{
+        width: 250px;
+        height: 350px;
+    }
+
+    .minBlog1{
+        width: 100%;
+        height: 155px;
+       
+    }
+    
+    .minBlog2{
+        width: 100%;
+        height: 155px;
+       
+    }
+    
+   
+}  
+
+@media screen and (max-width:992px) {
+    .services p{
+       margin: 40px auto;
+       width: 80%;
+       text-align: center;
+    }
+
+    .services .minBlog{
+        width: 100%;
+        height: 350px;
+    }
+
+   
+}
+
+@media screen and (max-width:768px) {
+   
+
+    .services .minBlog{
+        height: 350px;
+    }
+
+   
 }
