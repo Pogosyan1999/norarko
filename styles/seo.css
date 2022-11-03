@@ -38,3 +38,14 @@
     font-size: 13px;
   } 
 }  
+
+@media screen and (max-width:360px) {
+  .seoText{
+    padding-right: 0px;
+  } 
+
+  .seoText::-webkit-scrollbar {
+   display: none;
+    
+  }
+}  

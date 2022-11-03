@@ -178,4 +178,17 @@
 } 
 
 
+@media screen and (max-width:360px) {
+   .plus1,.plus2{
+    display: none;
+   }
+
+    .request_circles{
+       display: none;
+    }
+    
+    
+} 
+
+
 

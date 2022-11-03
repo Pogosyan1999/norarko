@@ -148,6 +148,19 @@
 
     }
    
+} 
+
+@media screen and (max-width:575px) {
+
+    .main_slider img{
+        display: none;
+       }
+
+    .main_slider .title{
+        margin-top: 20px;
+    }
+
+   
 }  
 
 
@@ -159,6 +172,20 @@
    .main_slider img{
     display: none;
    }
+
+   .main_slider .slick-arrow.slick-prev{
+   top: 100%;
+   left: 10px;
+    
+
+}
+
+.main_slider .slick-arrow.slick-next{
+    right: 10px;
+    top: 100%;
+   
+}
+  
 
    .slick-dots li {
     display: none;

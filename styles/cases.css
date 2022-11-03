@@ -147,8 +147,9 @@ margin-top: 100px;
 }  
 
 @media screen and (max-width:992px) {
-    .cases p{
-        width: 100%;
+    .cases .text{
+        width: 80%;
+        text-align: center;
         margin: 40px auto;
        
     }
@@ -168,3 +169,40 @@ margin-top: 100px;
 }
    
 }  
+
+@media screen and (max-width:575px) {
+    .cases .text{
+        width: 80%;
+        margin: 40px auto;
+       
+    }
+
+    .cases .cases_slider {
+        padding:20px 
+    
+
+
+}  
+
+}
+
+@media screen and (max-width:360px) {
+    .cases p{
+       font-size: 13px;
+     
+    }
+
+    .cases .orange{
+        margin-top: 20px;
+    }
+
+    
+
+    .cases .text{
+        font-size: 13px;
+    }
+
+    
+ 
+}
+

@@ -11,4 +11,8 @@ $(document).ready(function(){
     $('.cases_slider').slick({
         arrows:true,
     });
+
+    $('.menu_btn').click(function(){
+        $('.header_navbar1').toggleClass("active");
+    })
   });
